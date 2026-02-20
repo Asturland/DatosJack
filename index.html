@@ -182,14 +182,14 @@
     /* ── BUTTONS ── */
     .buttons {
       display: flex; flex-direction: column;
-      gap: 8px;
+      gap: 6px;
       width: 100%; max-width: 360px;
     }
     .btn {
       display: flex; align-items: center; justify-content: center;
       gap: 10px;
       border: none; border-radius: 16px;
-      padding: 13px 24px;
+      padding: 10px 24px;
       font-family: 'Nunito', sans-serif;
       font-size: 1rem; font-weight: 900;
       cursor: pointer; text-decoration: none;
@@ -339,6 +339,7 @@
         <!-- Reemplaza el src con tu URL de GitHub cuando la tengas -->
         <img src="./jack.jpeg" alt="Jack"
           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <span class="placeholder-icon" style="display:flex;">🐕</span>
       </div>
       <div class="paw-badge">🐾</div>
     </div>
@@ -380,8 +381,15 @@
         href="https://wa.me/34650780392?text=Hola%2C%20encontr%C3%A9%20a%20tu%20perrito%20Jack%20%F0%9F%90%BE"
         target="_blank">
         <span class="btn-icon">💬</span>
-        Enviar WhatsApp
-        <span class="btn-sub">Lucas · +34 650 780 392</span>
+        WhatsApp Lucas
+        <span class="btn-sub">+34 650 780 392</span>
+      </a>
+      <a class="btn btn-whatsapp"
+        href="https://wa.me/34605195744?text=Hola%2C%20encontr%C3%A9%20a%20tu%20perrito%20Jack%20%F0%9F%90%BE"
+        target="_blank">
+        <span class="btn-icon">💬</span>
+        WhatsApp Jesús
+        <span class="btn-sub">+34 605 195 744</span>
       </a>
     </div>
 
